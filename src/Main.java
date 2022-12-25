@@ -73,8 +73,6 @@ public class Main {
         var total2 = champsPrice*kgchamps + whiteMushroomsPrice*kgWhiteMushrooms*discWhiteMushrooms;
         System.out.println("Куплено " + kgchamps+ " кг шампиньонов и " + kgWhiteMushrooms + " кг белых грибов");
         System.out.println("Сумма покупки " + total2 + "\n");
-
-
     }
     public static void task6 () {
         System.out.println("Дополнительное Задание №6");
@@ -82,7 +80,7 @@ public class Main {
         double y = 0.87;
         double a = 11*x + y;
         double b = (x+10*y) - 15*(x/y);
-        System.out.printf("11*x + y = %.3f" + a + "  (x+10*y)- 15*(x/y) = " + b);
+        System.out.println("11*x + y = " + a + "  (x+10*y)- 15*(x/y) = " + b);
 // как ограничить количество знаков после запятой?
     }
 }
