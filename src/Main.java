@@ -24,8 +24,7 @@ public class Main {
         int c = a/10;
         System.out.println(c);
         System.out.println("Сумма цифр числа " + a + " равна " + (b + c));
-        // почему 56/10 = 5?
-        // потому что формат integer rounds down the resulting number
+
     }
     public static void task3 () {
         System.out.println("Дополнительное Задание №3");
@@ -80,7 +79,6 @@ public class Main {
         double y = 0.87;
         double a = 11*x + y;
         double b = (x+10*y) - 15*(x/y);
-        System.out.println("11*x + y = " + a + "  (x+10*y)- 15*(x/y) = " + b);
-// как ограничить количество знаков после запятой?
+        System.out.printf("11*x + y = %.2f ; (x+10*y)- 15*(x/y) = %.2f", a, b);
     }
 }
